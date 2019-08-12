@@ -1,0 +1,18 @@
+{
+  "name": "untitled2",
+  "version": "1.0.0",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "latest",
+    "mocha": "latest",
+    "ts-node": "^8.3.0",
+    "typings": "^2.1.1"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register test/test.ts"
+  }
+}
